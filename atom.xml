@@ -4,7 +4,7 @@
   <subtitle><![CDATA[低调做人，高调做事！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liangxifeng.com/"/>
-  <updated>2015-01-26T01:20:33.125Z</updated>
+  <updated>2015-01-26T01:38:08.281Z</updated>
   <id>http://liangxifeng.com/</id>
   
   <author>
@@ -19,13 +19,14 @@
     <link href="http://liangxifeng.com/2015/01/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E4%B8%80%EF%BC%89%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/"/>
     <id>http://liangxifeng.com/2015/01/26/设计模式（一）工厂模式/</id>
     <published>2015-01-26T01:19:48.000Z</published>
-    <updated>2015-01-26T01:20:26.000Z</updated>
+    <updated>2015-01-26T01:38:01.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>在面向对象编程中，一些情况下, new操作符直接生成对象会带来一些问题。</li>
 <li>举例来说, 许多类型对象的创造需要一系列的步骤: 你可能需要计算或取得对象的初始设置; 选择生成哪个子对象实例; 或在生成你需要的对象之前必须先生成一些辅助功能的对象。 在这些情况,新对象的建立就是一个 <code>过程</code>，不仅是一个操作，像一部大机器中的一个齿轮传动。</li>
 <li>建立一个 <code>工厂来创建对象</code>，可以轻松方便地构造对象实例，而不必关心构造对象实例的细节和复杂过程。</li>
 <li>工厂模式主要是为创建对象提供 <code>过渡接口</code>，以便将创建对象的具体过程屏蔽隔离起来，达到提高灵活性的目的。 </li>
 <li>GOF在《设计模式》一书中将工厂模式分为两类：工厂方法模式（Factory Method）与抽象工厂模式（Abstract Factory）。将简单工厂模式（Simple Factory）看为工厂方法模式的一种特例，两者归为一类。 </li>
+<li>简单工厂模式实例代码：<a href="https://github.com/liangxifeng833/my_program/blob/master/php/OOP/demo.php" target="_blank" rel="external">简单工厂模式</a></li>
 <li>工厂方法模式：<ul>
 <li>一个抽象产品类，可以派生出多个具体产品类。   </li>
 <li>一个抽象工厂类，可以派生出多个具体工厂类。   </li>
