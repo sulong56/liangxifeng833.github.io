@@ -4,7 +4,7 @@
   <subtitle><![CDATA[低调做人，高调做事！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://liangxifeng.com/"/>
-  <updated>2015-01-25T08:20:39.747Z</updated>
+  <updated>2015-01-26T01:20:33.125Z</updated>
   <id>http://liangxifeng.com/</id>
   
   <author>
@@ -13,6 +13,51 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[设计模式（一）工厂模式]]></title>
+    <link href="http://liangxifeng.com/2015/01/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%88%E4%B8%80%EF%BC%89%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://liangxifeng.com/2015/01/26/设计模式（一）工厂模式/</id>
+    <published>2015-01-26T01:19:48.000Z</published>
+    <updated>2015-01-26T01:20:26.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>在面向对象编程中，一些情况下, new操作符直接生成对象会带来一些问题。</li>
+<li>举例来说, 许多类型对象的创造需要一系列的步骤: 你可能需要计算或取得对象的初始设置; 选择生成哪个子对象实例; 或在生成你需要的对象之前必须先生成一些辅助功能的对象。 在这些情况,新对象的建立就是一个 <code>过程</code>，不仅是一个操作，像一部大机器中的一个齿轮传动。</li>
+<li>建立一个 <code>工厂来创建对象</code>，可以轻松方便地构造对象实例，而不必关心构造对象实例的细节和复杂过程。</li>
+<li>工厂模式主要是为创建对象提供 <code>过渡接口</code>，以便将创建对象的具体过程屏蔽隔离起来，达到提高灵活性的目的。 </li>
+<li>GOF在《设计模式》一书中将工厂模式分为两类：工厂方法模式（Factory Method）与抽象工厂模式（Abstract Factory）。将简单工厂模式（Simple Factory）看为工厂方法模式的一种特例，两者归为一类。 </li>
+<li>工厂方法模式：<ul>
+<li>一个抽象产品类，可以派生出多个具体产品类。   </li>
+<li>一个抽象工厂类，可以派生出多个具体工厂类。   </li>
+<li>每个具体工厂类只能创建一个具体产品类的实例。</li>
+<li>代码实例：<a href="https://github.com/liangxifeng833/my_program/blob/master/php/OOP/factory_1.php" target="_blank" rel="external">工厂方法模式</a></li>
+</ul>
+</li>
+<li>抽象工厂模式：<ul>
+<li>多个抽象产品类，每个抽象产品类可以派生出多个具体产品类。   </li>
+<li>一个抽象工厂类，可以派生出多个具体工厂类。   </li>
+<li>每个具体工厂类可以创建多个具体产品类的实例。 </li>
+<li>代码实例：<a href="https://github.com/liangxifeng833/my_program/blob/master/php/OOP/factory_2.php" target="_blank" rel="external">抽象工厂模式</a>  </li>
+</ul>
+</li>
+<li><code>工厂方法</code> 与 <code>抽象工厂</code> 的区别：<ul>
+<li>工厂方法模式只有一个抽象产品类，而抽象工厂模式有多个。   </li>
+<li>工厂方法模式的具体工厂类只能创建一个具体产品类的实例，而抽象工厂模式可以创建多个。</li>
+</ul>
+</li>
+</ul>
+<h3 id="参考资料：">参考资料：</h3>
+<p><a href="http://blog.csdn.net/hguisu/article/details/7505909" target="_blank" rel="external">设计模式（一）工厂模式Factory（创建型）</a><br><a href="http://blog.csdn.net/uuleaf/article/category/1151556" target="_blank" rel="external">PHP设计模式</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>在面向对象编程中，一些情况下, new操作符直接生成对象会带来一些问题。</li>
+<li>举例来说, 许多类型对象的创造需要一系列的步骤: 你可能需要计算或取得对象的初始设置; 选择生成哪个子对象实例; 或在生成你需要的对象之前必须先生成一些辅助功能的对象。 ]]>
+    </summary>
+    
+      <category term="面向对象" scheme="http://liangxifeng.com/categories/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[理解面向对象设计原则]]></title>
